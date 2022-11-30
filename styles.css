@@ -99,12 +99,7 @@ img{
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.backimg{
-  background-image: url(/img/pexels-stephan-seeber-1261728.jpg);
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-}
+
 
 /* LAYOUT */
 .bd-grid{
@@ -443,4 +438,13 @@ img{
   .home__img {
     right: 10%;
   }
+}
+
+
+
+.backimg{
+  background-image: url(/img/pexels-stephan-seeber-1261728.jpg);
+  display: flex;
+  justify-content: center;
+  background-size: cover;
 }
