@@ -1,2 +1,2 @@
 # portfolio
-https://arnab7747.github.io/portfolio/
+https://clever-eclair-b97547.netlify.app/
