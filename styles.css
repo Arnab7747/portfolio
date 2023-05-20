@@ -24,6 +24,10 @@
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
+  .about_text{
+    text-align: justify;
+    text-justify: inter-word;
+    }
 }
 
 
@@ -214,10 +218,22 @@ img {
 .home__data {
   align-self: center;
 }
-
+.home__social{
+  display: flex;
+  flex-direction: column;
+}
+.home__social-icon{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 2.5rem;
+  color: #fff;
+}
+.home__social-icon:hover{
+  color: var(--first-color);
+}
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-2);
   color: aliceblue;
 }
 
@@ -265,6 +281,11 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  
+}
+.about_text{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about__img {
@@ -439,6 +460,10 @@ img {
     width: 80px;
     top: 3rem;
   }
+  .about_text{
+  text-align: justify;
+  text-justify: inter-word;
+  }
 
   .nav {
     height: calc(var(--header-height) + 1rem);
@@ -522,6 +547,10 @@ img {
   .home__img {
     right: 10%;
   }
+  .about_text{
+    text-align: justify;
+    text-justify: inter-word;
+    }
 }
 
 
@@ -631,6 +660,15 @@ html,body{
 }
 
 
+
+:root {
+  --big-font-size: 45px;
+}
+
+
+.about__text{
+  text-align: justify;
+}
 
 
 
